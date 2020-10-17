@@ -87,4 +87,11 @@ namespace RE
 		REL::Relocation<func_t> func{ REL::ID(15779) };
 		return func(a_armorEntryData, a_armorPerks, a_skillMultiplier);
 	}
+
+	void GetCompatibleEffects(PotionCreationData* a_potionCreationData, BSTArray<EffectSetting*>* a_compatibleEffects, bool a_unk, bool HasPurityPerk)
+	{
+		using func_t = decltype(&GetCompatibleEffects);
+		REL::Relocation<func_t> func{ REL::ID(50478) };
+		return func(a_potionCreationData, a_compatibleEffects, a_unk, HasPurityPerk);
+	}
 }
