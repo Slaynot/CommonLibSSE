@@ -38,7 +38,7 @@ namespace RE
 			public:
 				std::uint32_t ingredientIndex;              // 00
 				std::uint32_t effectIndex;                  // 04
-				std::uint32_t nextCompatibleEffectMapIndex; // 06
+				std::uint32_t nextCompatibleEffectMapIndex; // 08
 			};
 			static_assert(sizeof(UsableEffectMap) == 0xC);
 
