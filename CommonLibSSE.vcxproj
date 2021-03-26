@@ -1557,6 +1557,7 @@
     <ClCompile Include="src\RE\FormComponents\Components\BGSPerkEntry\BGSPerkEntry.cpp" />
     <ClCompile Include="src\RE\FormComponents\Components\BipedAnim.cpp" />
     <ClCompile Include="src\RE\FormComponents\Components\BSResponse.cpp" />
+    <ClCompile Include="src\RE\FormComponents\Components\Crime.cpp" />
     <ClCompile Include="src\RE\FormComponents\Components\DialogueItem.cpp" />
     <ClCompile Include="src\RE\FormComponents\Components\Effect.cpp" />
     <ClCompile Include="src\RE\FormComponents\Components\IHandlerFunctor.cpp" />

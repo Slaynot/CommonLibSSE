@@ -403,7 +403,7 @@ namespace RE
 		std::uint32_t											unk934;										  // 934
 		TESClass*												defaultClass;								  // 938
 		std::uint64_t											unk940;										  // 940
-		std::uint32_t											crimeCounts[PackageNS::CRIME_TYPES::kTotal];  // 948
+		std::uint32_t											crimeCounts[CRIME_TYPES::kTotal];			  // 948
 		std::uint32_t											unk964;										  // 964
 		AlchemyItem*											pendingPoison;								  // 968
 		std::int64_t											lastPlayingTimeUpdate;						  // 970
