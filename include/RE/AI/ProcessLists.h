@@ -64,7 +64,7 @@ namespace RE
 		BSTArray<ActorHandle>					middleHighActorHandles;						   // 060
 		BSTArray<ActorHandle>					middleLowActorHandles;						   // 078
 		BSTArray<ActorHandle>*					allProcesses[4];							   // 090
-		BSSimpleList<Crime*>*					globalCrimes[PackageNS::CRIME_TYPES::kTotal];  // 0B0
+		BSSimpleList<Crime*>*					globalCrimes[CRIME_TYPES::kTotal];			   // 0B0
 		BSTArray<NiPointer<BSTempEffect>>		globalTempEffects;							   // 0E8
 		mutable BSSpinLock						globalEffectsLock;							   // 100
 		BSTArray<NiPointer<BSTempEffect>>		magicEffects;								   // 108

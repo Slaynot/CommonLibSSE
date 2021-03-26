@@ -4428,6 +4428,9 @@
     <ClCompile Include="src\RE\Inventory\ArmorRatingVisitorBase\ArmorRatingVisitorBase.cpp">
       <Filter>src\RE\Inventory\ArmorRatingVisitorBase</Filter>
     </ClCompile>
+    <ClCompile Include="src\RE\FormComponents\Components\Crime.cpp">
+      <Filter>src\RE\FormComponents\Components</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="include">
