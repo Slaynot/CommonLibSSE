@@ -102,7 +102,7 @@ namespace RE
 		{}
 
 
-		inline GFxKeyEvent(EventType a_eventType, GFxKey::Code a_keyCode, std::uint32_t a_ascii, GFxSpecialKeysState a_specialKeyState, std::uint32_t a_keyboardIndex = 0) :
+		inline GFxKeyEvent(EventType a_eventType, GFxKey::Code a_keyCode, std::uint32_t a_ascii, GFxSpecialKeysState a_specialKeyState, std::uint8_t a_keyboardIndex = 0) :
 			GFxEvent(a_eventType),
 			keyCode(a_keyCode),
 			ascii(a_ascii),
